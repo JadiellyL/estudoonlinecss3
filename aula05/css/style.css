@@ -1,0 +1,23 @@
+#conteudo{
+	width: 80%;
+	height: 200px;
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+}
+
+#conteudos{
+	max-width: 500px;
+	max-height: 200px;
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+}
+
+#conteudo01{
+	min-width: 300px;
+	min-height: 20px; 
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+}
