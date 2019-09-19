@@ -1,0 +1,37 @@
+p{
+	color: red;
+	text-align: justify;
+	text-indent: 20px;/*recuo na primeira linha*/
+	line-height: 30px; /*define altura das linhas*/
+	direction: ltr; /*determina a direção do texto
+	rtl - direita para esquerda - ltr - esquerda ara direita
+	*/
+	letter-spacing: 5px; /*espaçamento entre as letras*/
+	word-spacing: /*espaçamento entre palavras*/
+	text-transform: uppercase; /*Todas as letras maiusculas*/
+}
+h1{
+	text-align: left;
+	text-decoration: underline;
+	text-transform: lowercase; /*Todas letras minusculas*/
+	text-shadow: 3px 3px 4px red; /*adiciona sombra ao texto - posição
+	horizontal, vertical, desfoque e cor*/
+}
+
+h2{
+	text-align: right;
+	text-decoration: overline;
+	text-transform: capitalize; /*Primeira letra maiuscula*/
+}
+
+h3{
+	text-align: center;
+	text-decoration: line-through;
+}
+
+h4{
+	text-align: center;
+	text-decoration: none;
+}
+
+/*O valor padrão do text-decoration é o none*/
