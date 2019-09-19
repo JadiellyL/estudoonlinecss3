@@ -1,0 +1,18 @@
+/*para não alterar o tamanho da div
+usa-se a propriedade box-sizing*/
+#conteudo{
+	background-color: red;
+	width: 300px;
+	padding: 20px;
+	/*box-sizing: border-box; */
+	box-shadow: 10px 10px 5px green; /*adiciona sombra posição
+	horizontal, vertical, desfoque, cor*/
+}
+
+/*não adiciona o box-sizing diretamente
+nos elementos. cria-se um seletor universal 
+e adicina no mesmo. assim o padding não altera o tamanho
+fixo determinado no elemento*/
+*{
+	box-sizing: border-box;
+}
