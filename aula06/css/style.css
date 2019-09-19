@@ -1,0 +1,29 @@
+/*padding é o espaçamento interno que pode
+adicionar em torno do elemento, ou seja, em cima,
+dos lados e abaixo*/
+#exemplo{
+	background-color: blue; 
+	color: #fff;
+	width: 500px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+/*encurtando o padding em sentido horario
+top, right, bottom, left*/
+#exemplo01{
+	background-color: blue; 
+	color: #fff;
+	width: 500px;
+	height: 200px;
+	padding: 10px 20px 30px 30px;
+}
+/*Margens*/
+#exemplo02{
+	background-color: red;
+	color: #fff;
+	width: 500px;
+	margin: 20px 30px 20px 40px;
+}
