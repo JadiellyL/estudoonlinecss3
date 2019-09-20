@@ -1,0 +1,20 @@
+#bloco{
+	background-color: green;
+	width: 300px;
+	height: 150px;
+	border-radius: 20px 50px 100px 200px; /*funciona como o box model
+	pode atribuir 4 valores para os cantos do bloco
+	e somente um valor, atribui automatico para todos os
+	cantos do elemento*/
+}
+
+#bloco1{
+	background-color: green;
+	width: 300px;
+	height: 150px;
+	border-top-left-radius: 20px; /*propriedades individuais
+	do radius
+	border-top-right-radius
+	border-bottom-right-radius
+	border-bottom-left-radius*/
+}
