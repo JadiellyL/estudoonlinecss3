@@ -1,0 +1,20 @@
+p{
+	font-family: Arial, Times, "Times New Roman", serif; /*define
+	uma familia de fontes específicas a serem usadas pelo
+	navegador (família de fontes específicas e uma genérica
+	Nomes com espaço, adiciona-se em aspas duplas*/
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: italic; /*valores: normal, italic, oblique*/
+	font-size: 1em; /*a w3c recomenda que se utilize 
+	unidades relativas por questões de 
+	acessibilidade esta é a forma correta
+	de declarar e utilizando um seletor
+	universal*/	
+	/*1em é o valor padrão do navegador
+	que equivale a 16px*/
+}	
+
+*{
+	font-size: 100%;
+}
