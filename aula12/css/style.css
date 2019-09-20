@@ -1,0 +1,15 @@
+*{
+	font-size: 100%;
+}
+
+@font-face{
+	font-family: 'hyperspeedregular';
+    src: url('hyperspd-webfont.woff') format('woff');
+    
+}
+
+p{
+	font-family: 'hyperspeedregular';
+	font-size: 2.5em;
+
+}
