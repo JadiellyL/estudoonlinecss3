@@ -1,0 +1,121 @@
+*{
+	
+	font-size: 100%;
+
+}
+
+
+body{
+	background-color: #ffe0cc;
+	
+}
+h1{
+	background: linear-gradient(to top left, #ff3300, #3333ff,  #ff6600);
+	padding: 50px;
+	text-align: center;
+	margin: 2px;
+	font-size: 2.5em;
+	color: #fff;
+}
+/*#container{
+	
+	width: 500px;
+	height: 200px;
+	overflow: scroll;
+}
+*/
+
+
+#container01{
+	background: linear-gradient(#b300b3, #330033);
+	padding: 10px;
+	border-radius: 30px;
+
+}
+
+#container02{
+	background: linear-gradient(to right, #e6005c, #006600);
+	padding: 10px;
+	border-top-left-radius: 30px;
+
+}
+
+#container03{
+	background: linear-gradient(to left, #0033cc, #ff33cc);
+	padding: 10px;
+	border-top-right-radius: 30px;
+
+}
+
+#container04{
+	background: linear-gradient(to top, #ff0000, #993300);
+	padding: 10px;
+	border-bottom-left-radius: 30px;
+
+}
+
+#container05{
+	background: linear-gradient(to bottom, #ff3300, #000099);
+	padding: 10px;
+	border-bottom-left-radius: 30px;
+	font-size: 1.5em;
+
+}
+
+#container06{
+	background: linear-gradient(45deg,red,pink,blue);
+	padding: 10px;
+	width: 800px;
+	float: left;
+}
+
+#container07{
+	background: radial-gradient(#3333ff, #ff6666, #009933);
+	padding: 10px;
+	width: 800px;
+	float: right;
+}
+
+#paragrafo01 #paragrafo02, #paragrafo03 #paragrafo04{
+	font-family: Arial, serif;
+}
+
+#paragrafo01{
+	background-color: hsl(12, 100%, 85%);
+}
+
+#paragrafo02{
+	font-variant: small-caps;
+	background-color: hsla(270, 100%, 80%,0.5);
+}
+
+#paragrafo03{
+	font-weight: bold;
+	font-style: italic;
+	background-color: rgba(255, 204, 153,0.5);
+}
+
+#paragrafo04{
+	
+	font-family: 'Lobster', cursive;
+	background-color: rgb(255, 179, 255);
+
+
+}
+
+@font-face {
+    font-family: 'edwardian_script_itcbold';
+    src: url('edwardian-script-itc-bold-webfont.woff') format('woff');
+
+}
+
+#paragrafo05{
+	font-family: 'edwardian_script_itcbold';
+	background-color: #ffd6cc;
+	
+}
+
+
+
+
+

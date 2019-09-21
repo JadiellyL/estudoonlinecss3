@@ -1,5 +1,5 @@
 #cores{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background-color: rgba(230,89,225,0.5);
 	/*O ultimo valor é referente a opacidade*/
@@ -7,7 +7,7 @@
 }
 
 #cor{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background-color: hsla(20,100%,59%, 0.2);
 	/*O ultimo valor é referente a opacidade*/
@@ -16,7 +16,7 @@
 
 /*Trabalhando com gradiente*/
 #cor01{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(red,blue);/*a direção do
 	gradiente é, por padrão top-bottom.*/
@@ -24,28 +24,28 @@
 }
 
 #cor02{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(to right,red,yellow);/*a direção esquerda para a direita.*/
 	
 }
 
 #cor02{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(to left,yellow, pink);/*a direção direita para esquerda.*/
 	
 }
 
 #cor03{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(to top,pink, gray);/*a direção de baixo para cima.*/
 	
 }
 
 #cor04{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(to bottom,red,black,green);
 	
@@ -53,7 +53,7 @@
 
 /*gradiente diagonal*/
 #cor05{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(to top left,red,black,yellow);/*de forma diagonal de baixo para cima, na parte esquerda.*/
 	
@@ -61,7 +61,7 @@
 
 /*trabalhando gradiente com ângulos*/
 #cor06{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(45deg,red,blue,green,pink);
 	
@@ -69,7 +69,7 @@
 
 /*Trabalhando gradiente com cor com transparência*/
 #cor07{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: linear-gradient(45deg,rgba(255,0,0,0),blue,green);
 	
@@ -77,7 +77,7 @@
 
 /*TRABALHANDO COM RADIAL GRADIENTE*/
 #cor08{
-	widows: 200px;
+	width: 200px;
 	height: 200px;
 	background: radial-gradient(red, green, blue);
 	
