@@ -1,0 +1,25 @@
+/*Propriedade position;
+valor padrão é o static
+-absolute- permite
+que posicione o elemento em
+qualquer lugar da pagina com 
+com as coordenadas left:0; top:0;
+-fixed - faz com que o elemento
+fique fixo;
+-
+*/
+#conteudo{
+	width: 600px;
+	height: 1200px;
+	background-color: red;
+	position: relative;
+	/**/
+}
+
+#texto{
+	width: 500px;
+	background-color: green;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
