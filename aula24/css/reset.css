@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+/*ou usar o reset no eric maia*/
