@@ -1,0 +1,32 @@
+#exemplo{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transition-property: width;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+	transition-delay: 2s;
+	transition-height: 2s;
+	/*valores do transition- timing-function:
+	ease - comece lenta
+	fique rapida e termine lenta;
+
+	ease-in - inicia lenta;
+	ease-out - finaliza lenta;
+	ease-in-out - inicia lenta
+	e termina lenta;
+	linear - permanece a mesma velociadade.
+	 
+	*/
+
+	/*TRANSITION DECLARADO DE FORMA
+	REDUZIDA:
+	transition: width duração ritmo delay*/ 
+}
+
+#exemplo:hover{
+	width: 350px;
+	height: 350px;
+	background-color: green;
+}
+
