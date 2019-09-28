@@ -1,0 +1,11 @@
+body{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	/*repeat-x repete a imagem
+	na horizontal
+	repeat-y repete na vertical*/
+	/*background-position: left;*/
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
