@@ -1,0 +1,41 @@
+#exemplo{
+	border-style: dotted;
+	border-width: 5px;
+	border-color: red;
+}
+
+#exemplo01{
+	border: dashed 5px green;
+}
+
+#exemplo02{
+	border-top: solid;
+
+}
+
+#exemplo03{
+	border: double blue;
+	/*os valores do border
+	também podem ser
+	left e right*/
+}
+
+#exemplo04{
+	border: groove pink;
+}
+
+#exemplo05{
+	border-bottom: ridge;
+}
+
+#exemplo06{
+	border-style: inset;
+}
+
+#exemplo07{
+	border-style: outset;
+}
+
+#exemplo08{
+	outline: dotted 5px pink;
+}
