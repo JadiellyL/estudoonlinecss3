@@ -1,0 +1,16 @@
+img{
+	margin: 40px 0 0 60px;
+	filter:contrast(150%) drop-shadow(10px 20px 5px #000);
+}
+
+/*valores do filter:;
+blur(valor em px)
+filter: brightness(100%)
+contrast(20%)
+grayscale(100%)
+invert(50%)
+opacity(0%)
+saturate(100%)
+sepia(180%)
+hue-rotate(50deg)
+*/
